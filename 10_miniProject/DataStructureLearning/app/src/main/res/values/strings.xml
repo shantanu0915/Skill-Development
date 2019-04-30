@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Data Structure Learning</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="def_variable">Variables are storage place which has some memory allocated to it. Basically variables are used to store some form of data.</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="push_code1">
+    void push(int val)\n
+    {\n
+        \t\t\tstruct node*nn;\n
+        \t\t\tnn = new node;\n
+        \t\t\tnn->data = val;\n
+        \t\t\tnn->next=NULL;
+        \t\t\tif(top==NULL) \n
+        \t\t\t{\n
+            \t\t\t\t\t\ttop = nn;\n
+        \t\t\t}\n
+        \t\t\telse \n
+        \t\t\t{\n
+            \t\t\t\t\t\tnn->next=top;\n
+            \t\t\t\t\t\ttop = nn;\n
+        \t\t\t}\n
+    }\n
+        </string>
+
+    <string name="theory_stack">Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).</string>
+    <string name="stack_application1">1) Stack is used to evaluate prefix, postfix and infix expressions.An expression can be represented in prefix, postfix or infix notation. Stack can be used to convert one form of expression to another.</string>
+    <string name="stack_application2">2) Suppose we are finding a path for solving maze problem. We choose a path and after following it we realize that it is wrong. Now we need to go back to the beginning of the path to start with new path. This can be done with the help of stack.</string>
+    <string name="stack_application3">3) Stack is used to reverse a string. We push the characters of string one by one into stack and then pop character from stack.</string>
+    <string name="stack_application4">4) Stack is used to check the proper opening and closing of parenthesis.</string>
+    <string name="push_theory">The push function adds a new node to the existing stack and updates the top value of the stack</string>
+
+</resources>

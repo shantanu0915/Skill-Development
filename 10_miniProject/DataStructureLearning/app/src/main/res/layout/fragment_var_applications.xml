@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introduction.Variables.VariableActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="1.  Variable is used to store data in a memory location, which can be modified or used in the program during program execution."
+            android:layout_weight="1"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="2.  Variables play a significant role in constructing a program, storing values in memory and dealing with them. Variables are required in various functions of every program"
+            android:layout_weight="1"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:text="3.  For example, when we check for conditions to execute a block of statements, variables are required."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="4.  Again for iterating or repeating a block of the statement(s) several times, a counter variable is set along with a condition, or simply if we store the age of an employee, we need an integer type variable. So in every respect, the variable is used."
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

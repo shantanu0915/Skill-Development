@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introduction.Recursion.RecursionActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       android:padding="15dp"
+       >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:padding="5dp"
+           android:layout_marginTop="30dp"
+           android:layout_weight="1"
+           android:text="1.  Dynamic Programming
+It is the process to avoid re-computation. It is an essential tool for statistical programming. There are two types of dynamic programming:"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:padding="5dp"
+           android:textSize="20sp"
+           android:text="    a) Bottom-up dynamic programming
+
+         In this, we check function starting with smallest possible argument value.
+All computed values will be stored in an array."/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:padding="5dp"
+           android:layout_weight="1"
+           android:text="    b) Top-down dynamic programming
+
+         Save each computed value as the final act of a recursive function.
+Check if pre-computed values exist as the first action."/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:padding="5dp"
+           android:text="3.  Divide-And-Conquer Algorithms
+ It is a Common class of recursive function.
+Common features of this algorithm are process inputs, divide the input into smaller portions, Recursive call(s) process at least one part."
+           android:textSize="20sp" />
+   </LinearLayout>
+
+</LinearLayout>
